@@ -1,0 +1,28 @@
+.single_add_container{
+    width: 300px;
+    border: 1px solid black;
+    text-align: center;
+    height: min-content;
+    padding: 5px;
+    transition: transform 0.5s;
+}
+
+.single_add_container:hover{
+    transform: scale(1.1);
+}
+
+
+.resullt_container{
+    padding: 10px;
+    margin-top: 40px;
+}
+
+
+.all_ads{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
